@@ -1,0 +1,18 @@
+{
+  "default": "app-uat",
+  "connections": {
+    "app-uat": {
+      "description": "Credentials read from a .NET appsettings file at connect time",
+      "appsettings": "C:/repos/MyApp/Api/appsettings.Development.json",
+      "connName": "DefaultConnection",
+      "allowWrite": true
+    },
+    "app-prod-ro": {
+      "description": "Inline credentials, read-only",
+      "user": "APP_READER",
+      "password": "change-me",
+      "connectString": "db-host:1521/ORCLPDB1",
+      "allowWrite": false
+    }
+  }
+}
