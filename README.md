@@ -57,3 +57,7 @@ claude mcp add oracle -s user -- node /path/to/oracle-mcp/index.js
 To add a database later, edit `connections.json` and restart the session. You don't need to re-register the server.
 
 Requires Node.js 18+.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

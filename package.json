@@ -4,7 +4,7 @@
   "description": "Multi-connection MCP server for Oracle (node-oracledb thin mode)",
   "type": "module",
   "main": "index.js",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
