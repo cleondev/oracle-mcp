@@ -1,0 +1,15 @@
+{
+  "name": "oracle-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for Oracle (node-oracledb thin mode)",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "oracledb": "^6.5.0"
+  }
+}
